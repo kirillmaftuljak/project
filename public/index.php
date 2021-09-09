@@ -2,29 +2,29 @@
 use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Http\Message\ServerRequestInterface as Request;
 use Slim\Factory\AppFactory;
-use DI/composer
+use DI\Container;
 
 require __DIR__ . '/../vendor/autoload.php';
 
 $container = new Container();
 
-AppFactory::setContainer($container);
-
-$continer->set('templating', function(){
+$container->set('templating', function(){
     return new Mustache_Engine([
-            'loader' => new Mustache_Loader_ProductionFilesystemLoader(
-        __DIR__'/../templates',['extension' => ''])
+            'loader' => new Mustache_Loader_FilesystemLoader(
+        __DIR__.'/../templates',['extension' => ''])
     ]);
 
 });
 
+AppFactory::setContainer($container);
+
 $app = AppFactory::create();
     
-    $app->get('hello/{name}', function(Request $request, Response $response, array $args = []){
+    $app->get('/hello/{name}', function(Request $request, Response $response, array $args = []){
         $html = $this->get('templating')->render('hello.html', ['name' => $args['name']
     ]);
         $response->getBody()->write($html);
-        return $response
-    })
+        return $response;
+    });
 
 $app->run();
