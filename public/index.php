@@ -22,7 +22,9 @@ AppFactory::setContainer($container);
 $app = AppFactory::create();
 
 $app->get('/', 'App\Controller\AlbumsController:default');
-$app->get('/details/{id}', 'App\Controller\AlbumsController:details');
+$app->get('/details/{id:[0-9]+}', 'App\Controller\AlbumsController:details');
+
+// $errorMiddleware = $app->addMiddleware(true, true, true);
 
 $app->get('/search', 'App\Controller\AlbumsController:search');
 $app->any('/form', 'App\Controller\AlbumsController:form');
