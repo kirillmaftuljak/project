@@ -1,0 +1,114 @@
+[
+    {
+        "id" : 1,
+        "title": "Insomniac",
+        "artist": "Green Day",
+        "type" : "Soul",
+        "year" : 1987
+    },
+    {
+        "id" : 2,
+        "title": "American Idiot",
+        "artist": "Green Day",
+        "type" : "Soul",
+        "year" : 1988
+    },
+    {
+        "id" : 3,
+        "title": "Conspiracy of One",
+        "artist": "Offspring",
+        "type" : "Rock",
+        "year" : 2002
+    },
+    {
+        "id" : 4,
+        "title": "Dead Silience",
+        "artist": "Billy Talent",
+        "type" : "Rock",
+        "year" : 2010
+    },
+    {
+        "id" : 5,
+        "title": "ANThology",
+        "artist": "Alien Ant Farm",
+        "type" : "Soul",
+        "year" : 2015
+    },
+    {
+        "id" : 6,
+        "title": "Enema of the State",
+        "artist": "Blink-182",
+        "type" : "Rock",
+        "year" : 2000
+    },
+    {
+        "id" : 7,
+        "title": "Pennybridge Pioneers",
+        "artist": "Milencolin",
+        "type" : "Dance",
+        "year" : 2014
+    },
+    {
+        "id" : 8,
+        "title": "Chuck",
+        "artist": "Sum 41",
+        "type" : "Rock",
+        "year" : 2003
+    },
+    {
+        "id" : 9,
+        "title": "The State",
+        "artist": "Nickelback",
+        "type" : "Soul",
+        "year" : 2000
+    },
+    {
+        "id" : 10,
+        "title": "Silver Side Up",
+        "artist": "Nickelback",
+        "type" : "Rock",
+        "year" : 1999
+    },
+    {
+        "id" : 11,
+        "title": "Fallen",
+        "artist": "Evenescence",
+        "type" : "Soul",
+        "year" : 1988
+    },
+    {
+        "id" : 12,
+        "title": "Scripted",
+        "artist": "Icon For Hire",
+        "type" : "Rock",
+        "year" : 2019
+    },
+    {
+        "id" : 13,
+        "title": "Icon For Hire",
+        "artist": "Icon For Hire",
+        "type" : "Soul",
+        "year" : 2021
+    },
+    {
+        "id" : 14,
+        "title": "You Can't Kill Us",
+        "artist": "Icon For Hire",
+        "type" : "Rock",
+        "year" : 2007
+    },
+    {
+        "id" : 15,
+        "title": "Sleeping With Ghosts",
+        "artist": "Placebo",
+        "type" : "Rock",
+        "year" : 2008
+    },
+    {
+        "id" : 16,
+        "title": "Steal This Album",
+        "artist": "System of a Down",
+        "type" : "Soul",
+        "year" : 2001
+    }
+]
